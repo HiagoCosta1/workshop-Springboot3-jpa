@@ -81,7 +81,7 @@ public class User implements Serializable {
 		return Objects.hash(id);
 	}
 
-	@Override
+	@Override	
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
